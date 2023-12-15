@@ -69,9 +69,7 @@
   <ItemGroup>
     <Content Include="CostomValidation.aspx" />
     <Content Include="Css\lab3.css" />
-    <Content Include="..\..\lab1\bailab\Register_room.aspx">
-      <Link>Register_room.aspx</Link>
-    </Content>
+    <Content Include="Register_room.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,14 +81,12 @@
       <DependentUpon>CostomValidation.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="..\..\lab1\bailab\Register_room.aspx.cs">
+    <Compile Include="Register_room.aspx.cs">
       <DependentUpon>Register_room.aspx</DependentUpon>
-      <Link>Register_room.aspx.cs</Link>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="..\..\lab1\bailab\Register_room.aspx.designer.cs">
+    <Compile Include="Register_room.aspx.designer.cs">
       <DependentUpon>Register_room.aspx</DependentUpon>
-      <Link>Register_room.aspx.designer.cs</Link>
     </Compile>
   </ItemGroup>
   <ItemGroup>
